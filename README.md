@@ -1,6 +1,11 @@
 # ionicApp_ContentScrollKeyboardInputTest
 An Ionic test to see if I can make the keyboard, scrolling and input behave as expected...
 
+Don't forget to do (if your android-sdk is properly installed, including Android 4.x SDK)
+
+ ionic platform android
+
+
 Testing this application on an android 4 phone should be no more than running
 
  npm run developPhone
