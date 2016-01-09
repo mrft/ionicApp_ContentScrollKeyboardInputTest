@@ -1,0 +1,64 @@
+<ion-pane>
+  <ion-header-bar class="bar-stable">
+    <h1 class="title">Ionic Content Scroll Keyboard Input Test</h1>
+  </ion-header-bar>
+  <ion-content>
+    <h2>Part 1</h2>
+    <label class="item item-input">
+      <span class="input-label">Street</span>
+      <input type="text" ng-model="input.currentLocation.street">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">Number</span>
+      <input type="number" ng-model="input.currentLocation.huisnumber">
+    </label>
+    <label class="item item-input">
+      <span class="input-label">City</span>
+      <input type="text" ng-model="input.currentLocation.city">
+    </label>
+
+    <h2>Part 2</h2>
+    <div>
+      <p>We need some extra data:</p>
+
+      <!-- my original version -->
+      <label class="item item-input">
+        <span class="input-label">First name</span>
+        <input type="text" ng-model="input.details.firstName" placeholder="ex. John" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Last name</span>
+        <input type="text" ng-model="input.details.lastName" placeholder="ex. Johnssens" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Street</span>
+        <input style="width: 20em" type="text" ng-model="input.details.homeStreet" placeholder="ex. Downing Street" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Number</span>
+        <input style="width: 4em" type="text" ng-model="input.details.homeNr" placeholder="ex. 1" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Bus</span>
+        <input style="width: 2em" type="email" ng-model="input.details.homeMailbox" placeholder="ex. 1" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Zipcode</span>
+        <input style="width: 4em" type="text" ng-model="input.details.homeZipCode" placeholder="ex. 1234" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">City</span>
+        <input style="width: 10em" type="text" ng-model="input.details.homeCity" placeholder="ex. Boechout" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Telephone</span>
+        <input type="tel" style="width: 10em" ng-model="input.details.telephone" placeholder="ex. 033212345" autofocus>
+      </label>
+      <label class="item item-input">
+        <span class="input-label">Email</span>
+        <input type="email" style="width: 16em" ng-model="input.details.email" placeholder="ex. john@doe.com" autofocus>
+      </label>
+    </div>
+
+  </ion-content>
+</ion-pane>
